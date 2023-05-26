@@ -1,0 +1,198 @@
+@media screen and (max-width: 1200px) {
+    section .projects-section .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 2rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .about-short {
+        gap: 2rem;
+    }
+
+    .all-title1 {
+        font-size: 15vw !important;
+    }
+
+
+    section .projects-section .project .project-item {
+        width: 250px !important;
+    }
+
+
+
+    .image {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .all-title {
+        font-size: 20vw !important;
+    }
+
+    .all-title2 {
+        font-size: 10vw !important;
+    }
+
+    .about-short {
+        gap: 30px !important;
+    }
+
+    section .projects-section .project {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+
+
+    .main-images {
+        .image {
+            grid-template-columns: 1fr 1fr 1fr !important;
+            padding: 1rem !important;
+
+
+            img {
+                width: 100% !important;
+                height: auto !important;
+                padding: 0px !important;
+            }
+
+            .active {
+                position: fixed !important;
+                height: auto !important;
+                width: 80% !important;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 4;
+                transition: 0s ease;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .about-short {
+        flex-direction: column !important;
+
+
+        .about-card {
+            width: 80% !important;
+            max-width: 80% !important;
+        }
+    }
+
+
+    .all-title1 {
+        font-size: 12vw !important;
+    }
+
+
+
+
+    .service-items {
+        display: grid;
+        gap: 1rem !important;
+        grid-template-columns: 1fr !important;
+
+        .service-item {
+            .item-image {
+                max-width: 30px !important;
+                height: 30px !important;
+
+                img {
+                    width: 80% !important;
+                }
+            }
+        }
+    }
+
+
+    .about-mote-section {
+        .box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2rem !important;
+            gap: 4rem !important;
+        }
+
+        .box:nth-child(1) {
+            flex-direction: column-reverse;
+        }
+
+        .box:nth-child(3) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .all-title2 {
+        margin-top: 5rem;
+    }
+
+    .main-images {
+        .image {
+            grid-template-columns: 1fr 1fr !important;
+            padding: 0rem !important;
+
+            .active {
+                width: 90% !important;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .all-title {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .my-name {
+        font-size: 1.2rem !important;
+    }
+
+    .about-short {
+        padding: 1rem !important;
+    }
+
+    .all-title3 {
+        font-size: 15vw !important;
+    }
+
+
+
+    section .projects-section .project {
+        gap: 2rem !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    section .projects-section .project .project-item {
+        width: 200px !important;
+    }
+
+    section .about-mote-section .box .text .link {
+        // position: absolute !important;
+        // bottom: 0 !important;
+        // border-radius: 5px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // text-decoration: none;
+    }
+}
+
+
+

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,900;1,800;1,900&family=Rubik:ital,wght@0,300;0,500;0,900;1,600&display=swap");
+@import url("keen-slider/keen-slider.css");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: url(../assets/noise.png);
+  background-attachment: fixed;
+  background-size: 40%;
+}
+
+.mx-w {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.all-title,
+.all-title1,
+.all-title2,
+.all-title3 {
+  text-transform: uppercase;
+  color: rgba(238, 238, 238, 0.1333333333);
+  font-weight: 550;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.all-title {
+  font-size: 8rem !important;
+}
+
+.all-title1 {
+  font-size: 7rem !important;
+}
+
+.all-title2 {
+  font-size: 6rem !important;
+}
+
+.all-title3 {
+  font-size: 4rem !important;
+}
+
+.all-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  transition: 0.1s ease-in;
+}
+.all-icon i {
+  position: absolute;
+  color: #000;
+  font-size: 1.4rem;
+  transition: 0.5s ease-in;
+}
+.all-icon i:nth-child(2) {
+  opacity: 0;
+}
+
+.all-icon:hover {
+  background: #d3dae0;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2666666667);
+}
+
+.all-icon:hover i:nth-child(2) {
+  opacity: 1;
+}
+
+.all-icon:hover i:nth-child(1) {
+  opacity: 0;
+}/*# sourceMappingURL=main.css.map */
